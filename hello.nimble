@@ -6,5 +6,5 @@ description   = "A minimal Nimble package"
 license       = "MIT"
 srcDir        = "src"
 installExt    = @["nim"]
-bin           = "hello"
+bin           = @["hello"]
 requires "nim >= 1.0.0"
